@@ -1,0 +1,15 @@
+package main
+
+import (
+	"fmt"
+)
+
+func main() {
+	//card := NewCard()
+	fmt.Println(NewCard())
+}
+
+// NewCard message is test
+func NewCard() string {
+	return "Five of Diamond"
+}
