@@ -11,6 +11,7 @@ type contactInfo struct {
 type person struct {
 	firstName   string
 	lastName    string
+	zip         int
 	contactInfo // But if you want you can use field contactInfo without contac
 
 }
@@ -22,6 +23,7 @@ func main() {
 	dan := person{
 		firstName: "Dan", //Here yuo upate the value of var dan
 		lastName:  "Slutzky",
+		zip:       10000,
 		contactInfo: contactInfo{ // here you must to use type and filed the same name
 			email:   "dan@gmail.com",
 			zipCode: 10409,
